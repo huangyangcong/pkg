@@ -6,7 +6,7 @@ import (
 	"github.com/better-go/pkg/errors"
 	"github.com/better-go/pkg/log"
 	"github.com/gin-gonic/gin"
-	microErr "github.com/micro/go-micro/v2/errors"
+	microErr "go-micro.dev/v4/errors"
 )
 
 /*

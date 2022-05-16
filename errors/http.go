@@ -3,7 +3,7 @@ package errors
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/v2/errors"
+	"go-micro.dev/v4/errors"
 )
 
 // 类型扩展方法:

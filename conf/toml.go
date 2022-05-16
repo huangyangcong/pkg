@@ -3,11 +3,11 @@ package conf
 import (
 	"github.com/better-go/pkg/log"
 
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/config/encoder/toml"
-	"github.com/micro/go-micro/v2/config/reader"
-	"github.com/micro/go-micro/v2/config/source"
-	"github.com/micro/go-micro/v2/config/source/file"
+	"github.com/asim/go-micro/plugins/config/encoder/toml/v4"
+	"go-micro.dev/v4/config"
+	"go-micro.dev/v4/config/reader"
+	"go-micro.dev/v4/config/source"
+	"go-micro.dev/v4/config/source/file"
 )
 
 var (

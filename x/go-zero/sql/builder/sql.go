@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/builderx"
+	"github.com/zeromicro/go-zero/tools/goctl/model/sql/builderx"
 )
 
 /*
