@@ -40,7 +40,7 @@ tasks:
   install:
     cmds:
       - brew install go
-      - go install github.com/oligot/go-mod-upgrade
+      - go install github.com/oligot/go-mod-upgrade@latest
 
   init:
     cmds:

@@ -3,8 +3,6 @@ package builder
 import (
 	"fmt"
 	"reflect"
-
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/builderx"
 )
 
 /*
@@ -19,11 +17,6 @@ go-zero sql builder:
 const (
 	dbTag = "db"
 )
-
-// ToMap converts interface into map
-func ToMap(in interface{}) map[string]interface{} {
-	return builderx.ToMap(in)
-}
 
 // FieldNames converts golang struct field into slice string
 func FieldNames(in interface{}) (out []string) {
